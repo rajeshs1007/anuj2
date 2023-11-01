@@ -117,7 +117,7 @@ const DiffResultHooks = (props: DiffResult) => {
     return (
       <>
         <span style={{ fontSize: 24 }}>{"comp"}</span>
-         <button onClick={handleDownloadExcel}>Download Excel</button>{/* Download button */}
+         
         <HotTable
           ref={props.hotTableComponentDiffResult}
           data={[["1:1"]]} // Start with "1:1"
